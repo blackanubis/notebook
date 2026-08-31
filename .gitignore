@@ -1,0 +1,37 @@
+# WorkBuddy 工作空间临时文件（不应提交）
+_jobs*.json
+_logs*
+_pkgs.json
+_run*.json
+_user_pkgs.json
+_versions.json
+_outputs/
+outputs/
+
+# Python 构建产物
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.python-version
+.venv/
+venv/
+*.egg-info/
+
+# Node 构建产物
+node_modules/
+dist/
+.vite/
+
+# Vite 调试残留
+vite.config.js.timestamp-*
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
