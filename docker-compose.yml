@@ -1,0 +1,16 @@
+# 家庭错题本 · 最简化部署
+# 解压后直接 docker compose up -d 即可
+
+services:
+  notebook:
+    build: .
+    image: notebook:latest
+    container_name: notebook
+    restart: unless-stopped
+    ports:
+      - "13001:3000"
+    volumes:
+      # 数据就放在当前目录的 data 文件夹里（简单直接）
+      - ./data:/data
+    environment:
+      - TZ=Asia/Shanghai

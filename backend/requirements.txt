@@ -1,0 +1,30 @@
+# Web 框架
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+python-multipart==0.0.18
+# 如需国内源加速：pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
+
+# 数据校验与配置
+pydantic==2.10.3
+pydantic-settings==2.6.1
+
+# 数据库
+sqlalchemy==2.0.36
+
+# HTTP 客户端（AI 调用）
+httpx==0.28.1
+
+# 图片处理
+Pillow==11.0.0
+
+# PDF 生成
+WeasyPrint==63.1
+
+# 定时任务
+APScheduler==3.10.4
+
+# 二维码（PDF 中扫码查看答案）
+qrcode==7.4.2
+
+# Jinja2 模板（PDF 模板）
+Jinja2==3.1.4

@@ -1,0 +1,15 @@
+__pycache__
+*.pyc
+*.pyo
+.git
+.gitignore
+.venv
+venv
+node_modules
+data
+dist
+.DS_Store
+*.md
+!README.md
+.idea
+.vscode
